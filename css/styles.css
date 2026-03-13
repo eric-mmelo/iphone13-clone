@@ -90,6 +90,7 @@ header nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    overflow: hidden;
 }
 
 #main-content #title {
@@ -284,28 +285,9 @@ header nav {
     transition-delay: 1200ms;
 }
 
-.animation :nth-child(6) {
-    transition-delay: 1500ms;
-}
-
 .show {
     opacity: 1;
     filter: blur(0);
     transition: 1s;
 }
 
-#image-picker :nth-child(1) {
-    transition-delay: 700ms;
-}
-#image-picker :nth-child(2) {
-    transition-delay: 800ms;
-}
-#image-picker :nth-child(3) {
-    transition-delay: 900ms;
-}
-#image-picker :nth-child(4) {
-    transition-delay: 1000ms;
-}
-#image-picker :nth-child(5) {
-    transition-delay: 1100ms;
-}
